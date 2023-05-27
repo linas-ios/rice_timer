@@ -52,6 +52,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Start">
                                     <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="25"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="startButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="341-VB-WpZ"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -75,6 +78,7 @@
                         <outlet property="riceTypeImage" destination="VTo-NS-zt0" id="YKP-06-Z6U"/>
                         <outlet property="segmentControl" destination="K3E-SE-1SZ" id="Qy3-0h-VpX"/>
                         <outlet property="startButton" destination="iur-LB-HRm" id="ZKQ-9k-on3"/>
+                        <outlet property="timerLabel" destination="qjb-0d-iWt" id="ov1-58-Ipp"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
